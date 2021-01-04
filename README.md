@@ -14,9 +14,32 @@ Enjoy2 supports multiple configurations (for different games or programs) and yo
 
 Enjoy2 is written by [@nongraphical](http://nongraphical.com) and is based on [Enjoy by Sam McCall](https://yukkurigames.com/enjoyable/). Enjoy2 is MIT-licensed.
 
+This Enjoy2 update has been written by [BaconShrimpEyes](http://baconshrimpeyes.com).
+
 ## How to install
 
-[Download Enjoy2](http://nongraphical.s3-website-us-east-1.amazonaws.com/releases/Enjoy2.zip), extract the archive, and you're done!
+[Download Enjoy2 release by @nongraphical](http://nongraphical.s3-website-us-east-1.amazonaws.com/releases/Enjoy2.zip), extract the archive, and you're done!
+
+To compile yourself:
+
+install xcode from the MacOS app store or from [developer.apple.com](https://developer.apple.com/xcode/)
+
+clone this repository, with this command in terminal
+
+```
+git clone https://github.com/BaconWrappedShrimpWithEyes/enjoy2.git
+```
+
+open `enjoy2.xcodeproject` using any version of xcode built for macos 10.13 or later
+
+click run
+
+the enjoy2 application will be built in `~/Library/Developer/Xcode/DerivedData/enjoy2-[RANDOM-SEQUENCE-OF-LETTERS]/Build/Products/Debug/Enjoy2.app` or, alternatively, the app will be searchable using Spotlight search
+
+## What's Been Changed
+
+• Currently uncompileable features (depracated and deleted Objective-C functions) have been replaced with modern equivelants
+• Dark Mode support added
 
 ## How to use
 
@@ -36,7 +59,7 @@ Enjoy2 offers two mouse mapping modes: global and single-window. Enjoy2 starts i
 
 **Translations** allow you to specify a mapping (e.g. for playing a specific video game) once and apply it to a variety of similar controllers. For example, you could create a mapping and use it with PS3 controllers and Logitech PC gamepads.
 
-TODO: upcoming feature.
+These were never implemented properly.
 
 ## Transferring configuration files
 
@@ -48,10 +71,19 @@ The files are JSON-encoded and should be portable across machines.
 
 ## Requirements
 
-* Mac OS X 10.6 (Snow Leopard) or higher
+* Mac OS X 10.13 (Snow Leopard) or higher
 * USB gamepad/joystick/controller
 
 ## Changelog
+
+Version 1.3
+
+* Added dark mode support
+* Button on-press event options are no longer spaced out so much
+* Fixed compiling issues for modern versions of XCode
+* Added support in theory for Macs using Apple Silicon, though no testing has been done
+
+*At present, this version requires user compilation in xcode*
 
 Version 1.2
 
