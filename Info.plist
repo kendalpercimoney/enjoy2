@@ -19,7 +19,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.2.1</string>
+	<string>1.3.0</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright (c) 2014 Yifeng Huang</string>
 	<key>NSMainNibFile</key>
@@ -27,7 +27,7 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUFeedURL</key>
-	<string>https://s3.amazonaws.com/nongraphical/enjoy2/Enjoy2Appcast.xml</string>
+	<string>https://baconshrimpeyes.com/enjoy2-info/Enjoy2Appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>

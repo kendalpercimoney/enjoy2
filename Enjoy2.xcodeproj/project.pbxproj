@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		618452DA25A2C80500BFEF4A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* Info.plist */; };
 		8B0C55251709F78F0086F30B /* TranslationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C55231709F78F0086F30B /* TranslationWindow.xib */; };
 		8B0C5528170A07900086F30B /* dualshock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C5527170A07900086F30B /* dualshock.png */; };
 		8B4B9DE31A2BFD2A0074ADC6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4B9DE21A2BFD2A0074ADC6 /* Sparkle.framework */; };
@@ -328,6 +329,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				618452DA25A2C80500BFEF4A /* Info.plist in Resources */,
 				D5F80A9D0FB0A2FF0006A4DE /* icon.icns in Resources */,
 				8B4B9DE61A2BFF6B0074ADC6 /* dsa_pub.pem in Resources */,
 				D549CA4C0FBB441B00BC8203 /* Credits.rtf in Resources */,
@@ -510,6 +512,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -519,6 +522,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = "";
 			};
 			name = Release;
