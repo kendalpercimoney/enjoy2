@@ -81,6 +81,7 @@ Version 1.3
 * Added dark mode support
 * Button on-press event options are no longer spaced out so much
 * Fixed compiling issues for modern versions of XCode
+* Added support in theory for Macs using Apple Silicon, though no testing has been done
 
 *At present, this version requires user compilation in xcode*
 
