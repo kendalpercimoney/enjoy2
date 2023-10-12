@@ -25,7 +25,8 @@
 	IBOutlet NSPopUpButton* configPopup;
 	IBOutlet ConfigsController* configsController;
 	IBOutlet JoystickController* joystickController;
-	id currentJsaction;
+  IBOutlet NSSlider *cursorSpeedSlider;
+  id currentJsaction;
 }
 
 -(void) keyChanged;

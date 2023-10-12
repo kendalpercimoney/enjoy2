@@ -14,6 +14,8 @@
 }
 
 @property(readwrite) int dir;
+@property (nonatomic) double cursorSpeed;
+
 
 +(TargetMouseMove*) unstringifyImpl: (NSArray*) comps;
 

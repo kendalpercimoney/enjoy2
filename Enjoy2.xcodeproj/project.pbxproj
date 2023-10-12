@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		618452DA25A2C80500BFEF4A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* Info.plist */; };
-		61BE436625A2CF6300C25D45 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BE436525A2CF6300C25D45 /* Sparkle.framework */; };
-		61BE436725A2CF6E00C25D45 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 61BE436525A2CF6300C25D45 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B0C55251709F78F0086F30B /* TranslationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C55231709F78F0086F30B /* TranslationWindow.xib */; };
 		8B0C5528170A07900086F30B /* dualshock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C5527170A07900086F30B /* dualshock.png */; };
 		8B4B9DE61A2BFF6B0074ADC6 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B9DE51A2BFF6B0074ADC6 /* dsa_pub.pem */; };
@@ -51,7 +49,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				61BE436725A2CF6E00C25D45 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +124,6 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				D594BF000FAE7397007A85F2 /* IOKit.framework in Frameworks */,
 				D561800A0FAFE8E400928B3A /* Carbon.framework in Frameworks */,
-				61BE436625A2CF6300C25D45 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

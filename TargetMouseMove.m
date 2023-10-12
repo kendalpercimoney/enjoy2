@@ -16,6 +16,7 @@
 
 @synthesize dir;
 
+
 -(NSString*) stringify {
 	return [[NSString alloc] initWithFormat: @"mmove~%d", dir];
 }
@@ -35,16 +36,20 @@
     return;
 }
 
+
+
+
 -(void) update: (JoystickController *)jc {
     //printf("Dir %d inputValue %f\n", [self dir], [self inputValue]);
-    if (fabs([self inputValue]) < 0.01)
+    if (fabs([self inputValue]) < 0.10) //changed from 0.01 to stop creeping
+      
         return; // dead zone
     
     NSRect screenRect = [[NSScreen mainScreen] frame];
     NSInteger height = screenRect.size.height;
     
     // TODO
-    double speed = 4.0;
+    double speed = 4.0; //cursor speed
     if ([jc frontWindowOnly])
         speed = 12.0;
     double dx = 0.0, dy = 0.0;

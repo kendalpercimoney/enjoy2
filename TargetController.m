@@ -32,6 +32,7 @@
 }
 
 
+
 -(Target*) state {
 	switch([radioButtons selectedRow]) {
 		case 0: // none
