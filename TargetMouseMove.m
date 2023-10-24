@@ -49,7 +49,7 @@
     NSInteger height = screenRect.size.height;
     
     // TODO
-    double speed = 4.0; //cursor speed
+    double speed = 20.0; //cursor speed
     if ([jc frontWindowOnly])
         speed = 12.0;
     double dx = 0.0, dy = 0.0;
