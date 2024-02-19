@@ -1,3 +1,25 @@
+# Universal build of Enjoy2
+- MacOS: 10.13+
+- Arch: x86_64/aarm64
+- [Download/Open/Run](https://github.com/serge-ivamov/enjoy2/releases/download/v2024-02-18/Enjoy2-Installer-v2024-02-18.dmg)
+
+# News
+- Version v2024-02-18 released
+  - fix for crash on saving configuration
+
+# Problems
+- Modern macos do not allow unsigned applications to run, so you need to remove the quarantine flags to run them:
+  ```bash
+  $ xattr -rc /Applications/Enjoy2.app
+  ```
+
+___
+
+
+
+
+
+
 Enjoy2
 ======
 
