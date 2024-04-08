@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22154" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22689"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,35 +13,11 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="731" height="454"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1352" height="843"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1512" height="944"/>
             <view key="contentView" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="731" height="454"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <box autoresizesSubviews="NO" borderType="line" title="Translation" translatesAutoresizingMaskIntoConstraints="NO" id="69">
-                        <rect key="frame" x="217" y="44" width="497" height="390"/>
-                        <view key="contentView" id="FK8-U0-YRi">
-                            <rect key="frame" x="4" y="5" width="489" height="370"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            <subviews>
-                                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="135">
-                                    <rect key="frame" x="151" y="202" width="188" height="16"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="184" id="140"/>
-                                    </constraints>
-                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Select a Joystick on the left" id="136">
-                                        <font key="font" metaFont="system"/>
-                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                    </textFieldCell>
-                                </textField>
-                            </subviews>
-                            <constraints>
-                                <constraint firstItem="135" firstAttribute="top" secondItem="FK8-U0-YRi" secondAttribute="top" constant="152" id="138"/>
-                                <constraint firstItem="135" firstAttribute="centerX" secondItem="FK8-U0-YRi" secondAttribute="centerX" id="141"/>
-                            </constraints>
-                        </view>
-                    </box>
                     <box autoresizesSubviews="NO" borderType="line" title="Joysticks" translatesAutoresizingMaskIntoConstraints="NO" id="83">
                         <rect key="frame" x="17" y="44" width="188" height="390"/>
                         <view key="contentView" id="jzG-QO-YmA">
@@ -132,6 +108,30 @@ Gw
                             <constraint firstAttribute="width" constant="491" id="174"/>
                         </constraints>
                     </popUpButton>
+                    <box autoresizesSubviews="NO" borderType="line" title="Translation" translatesAutoresizingMaskIntoConstraints="NO" id="69">
+                        <rect key="frame" x="217" y="44" width="497" height="390"/>
+                        <view key="contentView" id="FK8-U0-YRi">
+                            <rect key="frame" x="4" y="5" width="489" height="370"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="135">
+                                    <rect key="frame" x="151" y="202" width="188" height="16"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="184" id="140"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Select a Joystick on the left" id="136">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="135" firstAttribute="top" secondItem="FK8-U0-YRi" secondAttribute="top" constant="152" id="138"/>
+                                <constraint firstItem="135" firstAttribute="centerX" secondItem="FK8-U0-YRi" secondAttribute="centerX" id="141"/>
+                            </constraints>
+                        </view>
+                    </box>
                 </subviews>
                 <constraints>
                     <constraint firstItem="69" firstAttribute="top" secondItem="2" secondAttribute="top" constant="20" symbolic="YES" id="73"/>
@@ -167,7 +167,7 @@ Gw
                         </constraints>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="dualshock" id="148"/>
                     </imageView>
-                    <textField focusRingType="none" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="187">
+                    <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="187">
                         <rect key="frame" x="295" y="320" width="93" height="16"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="89" id="192"/>
@@ -178,7 +178,7 @@ Gw
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField focusRingType="none" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="211">
+                    <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="211">
                         <rect key="frame" x="295" y="296" width="99" height="16"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="95" id="228"/>

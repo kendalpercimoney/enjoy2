@@ -10,8 +10,8 @@
 - (id) initWithIndex: (int)newIndex {
 	if(self = [super init]) {
         subActions = [NSArray arrayWithObjects:
-            [[SubAction alloc] initWithIndex: 0 name: @"Low" base: self],
-            [[SubAction alloc] initWithIndex: 1 name: @"High" base: self],
+            [[SubAction alloc] initWithIndex: 0 name: @"Up" base: self],
+            [[SubAction alloc] initWithIndex: 1 name: @"Down" base: self],
             [[SubAction alloc] initWithIndex: 2 name: @"Analog" base: self],
             nil
         ];
